@@ -19,6 +19,10 @@ public class DaoForCarImpl implements  DaoForCar {
         list.add(new Car("Toyota", 253, "blue"));
     };
 
+    public List<Car> getList() {
+        return list;
+    }
+
     @Override
     public List<Car> amountOfCars(Integer count) {
         List<Car> cars = new ArrayList<>();
